@@ -40,7 +40,7 @@ const {
   DisconnectReason,
   META_AI_JID,
   fetchLatestBaileysVersion
-} = require('@whiskeysockets/baileys');
+} = require('@itsliaaa/baileys');
 
 // ───────────────────── FFMPEG SETUP ───────────────────────────
 const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
