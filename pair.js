@@ -2322,7 +2322,7 @@ ${botFooter}`;
           await socket.sendMessage(from, { react: { text: '⏳', key: msg.key } });
 
           try {
-            const { downloadMediaMessage } = require('@whiskeysockets/baileys');
+            const { downloadMediaMessage } = require('@itsliaaa/baileys');
             const buffer = await downloadMediaMessage(targetMsg, 'buffer', {});
 
             if (!buffer || buffer.length === 0) throw new Error('Media download කරගන්න බැරි වුණා.');
