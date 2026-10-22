@@ -2,7 +2,7 @@ const {
     downloadMediaMessage, 
     generateWAMessageFromContent, 
     proto 
-} = require('@whiskeysockets/baileys');
+} = require('@itsliaaa/baileys');
 const express = require('express');
 const app = express();
 __path = process.cwd()
